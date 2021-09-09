@@ -1,0 +1,15 @@
+spring: 
+  application:
+    name: Demo
+  datasource: 
+    url: jdbc:mysql://localhost/login?
+    username: root
+    password:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: none
+    generate-ddl: true
+    show-sql: true
+server:
+  port: 9090
